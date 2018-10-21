@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-add_library(serial)
+add_library(serial SHARED)
 find_package(Threads REQUIRED)
 find_library(LIBRT rt)
 target_sources(serial
