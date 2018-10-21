@@ -12,7 +12,7 @@ target_include_directories(serial
 )
 target_link_libraries(serial
     PRIVATE rt 
-    PTIVATE pthread
+    PRIVATE pthread
 )
 ## Install executable
 set_target_properties(serial
